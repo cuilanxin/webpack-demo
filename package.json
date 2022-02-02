@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "development": "yarn webpack -c ./demo2/webpack.config/webpack.development.js",
     "production": "yarn webpack -c ./demo2/webpack.config/webpack.production.js",
-    "none": "yarn webpack -c ./demo2/webpack.config/webpack.none.js"
+    "none": "yarn webpack -c ./demo2/webpack.config/webpack.none.js",
+    "build":  "yarn webpack -c ./demo2/webpack.config.js"
   },
   "repository": {
     "type": "git",
