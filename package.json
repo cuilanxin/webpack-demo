@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --devtool eval --progress --colors",
-    "deploy": "NODE_ENV=production webpack -p"
+    "development": "yarn webpack -c ./demo1/webpack.config/webpack.development.js",
+    "production": "yarn webpack -c ./demo1/webpack.config/webpack.production.js",
+    "none": "yarn webpack -c ./demo1/webpack.config/webpack.none.js"
   },
   "repository": {
     "type": "git",
