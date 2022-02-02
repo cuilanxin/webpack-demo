@@ -1,1 +1,0 @@
-(()=>{"use strict";const t=varaDefault="varaDefault";const e=document.getElementById("demo1-dv");e.setAttribute("style","font-size: 24px; color: #f50;text-align: center;padding-top: 20px"),e.innerHTML="俺啥也不刽",console.log(t,"vara",(function(){}))})();
